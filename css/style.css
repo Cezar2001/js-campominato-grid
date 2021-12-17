@@ -6,6 +6,7 @@
 
 body{
     background-color: black;
+    color: white;
 }
 
 .difficulty-container{
@@ -22,7 +23,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
 }
 
 .container-box-1{
@@ -48,6 +48,7 @@ body{
     height: 80px;
     background-color: black;
     border: 2px white solid;
+    padding: 5px;
 }
 
 .box-blue{
@@ -56,8 +57,4 @@ body{
 
 .box-grey{
     background-color: #333;
-}
-
-.hide{
-    display: none;
 }
